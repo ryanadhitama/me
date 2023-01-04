@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      container: {
+        center: true
+      },
+      colors: {
+        primary: '#09814A',
+        black: '#0d1117'
+      }
+    }
+  },
+  plugins: []
+};

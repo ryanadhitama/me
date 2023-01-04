@@ -1,0 +1,17 @@
+@layer components {
+  .header {
+    @apply py-7 sm:py-11 absolute w-full;
+    &__wrapper {
+      @apply flex justify-between;
+    }
+    &__menu {
+      @apply flex items-center;
+      ul {
+        @apply flex gap-10 text-base;
+        @screen sm {
+          @apply text-base;
+        }
+      }
+    }
+  }
+}

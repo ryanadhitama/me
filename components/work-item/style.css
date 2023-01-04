@@ -1,0 +1,10 @@
+@layer components {
+  .work-item {
+    &__image {
+      @apply bg-white bg-opacity-5 h-80 text-8xl text-gray-400 flex items-center justify-center uppercase;
+    }
+    &__content {
+      @apply pt-4 duration-150 text-lg;
+    }
+  }
+}

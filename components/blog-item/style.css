@@ -1,0 +1,14 @@
+@layer components {
+  .blog-item {
+    @apply border-white border-b border-dashed py-8 duration-150;
+    &:hover {
+      @apply border-primary text-primary;
+    }
+    &__title {
+      @apply text-lg font-semibold;
+    }
+    &__date {
+      @apply text-[#BBBBBB];
+    }
+  }
+}

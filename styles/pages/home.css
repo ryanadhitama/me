@@ -1,0 +1,71 @@
+@layer components {
+  .home {
+  }
+  .banner {
+    @apply h-screen flex items-center;
+    &__title {
+      @apply text-xl;
+      @screen md {
+        @apply text-2xl leading-[32px];
+      }
+      @screen md {
+        @apply text-3xl leading-[48px];
+      }
+      & > span {
+        @apply block my-1 text-4xl leading-[62px] font-semibold;
+        @screen sm {
+          @apply text-5xl leading-[80px];
+        }
+        @screen md {
+          @apply text-7xl leading-[108px];
+        }
+      }
+    }
+    &__description {
+      @apply text-[#BBBBBB] text-xl;
+      @screen md {
+        @apply text-2xl;
+      }
+      @screen md {
+        @apply text-3xl;
+      }
+    }
+  }
+
+  .skills {
+    @apply py-16;
+    @screen sm {
+      @apply py-20;
+    }
+    @screen lg {
+      @apply py-24;
+    }
+    &__wrapper {
+      @apply inline-flex gap-2 sm:gap-3 lg:gap-4 flex-wrap;
+    }
+    &__item {
+      @apply bg-white text-black rounded-[10px] py-2 px-5 text-base;
+      @screen md {
+        @apply rounded-[10px] py-[10px] px-6 text-lg;
+      }
+    }
+  }
+  .works {
+    @apply py-16;
+    @screen sm {
+      @apply py-20;
+    }
+    @screen lg {
+      @apply py-24;
+    }
+  }
+  .blog {
+    @apply py-16;
+    @screen sm {
+      @apply py-20;
+    }
+    @screen lg {
+      @apply py-24;
+    }
+  }
+}
