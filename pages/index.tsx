@@ -45,7 +45,7 @@ export default function Home({ posts, works }: any) {
               initial="out"
             >
               <h1 className="banner__title">
-                Hello, I'm Ryan Adhitama
+                Hello, I&apos;m Ryan Adhitama
                 <span>
                   <span className="text-gradient">Software</span> Engineer
                 </span>
